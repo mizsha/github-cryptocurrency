@@ -30,3 +30,9 @@ Stop miner:
 
 Disable miner to run at startup:
 >systemctl disable ewbf.service
+
+If this repo helped you set up some miners consider donating to the author of the program you chose to use first and then consider contributing to one of my accounts.  Thank you!
+
+Donate Bitcoin: 1egacySQXJA8bLHnFhdQQjZBLW1gxSAjc
+Donate Zcash: t1egacynGZDT9mTfmMSCG1yCaedq7bGTs1a
+Donate Ethereum: 0x1337aeb726eee1a51fc3b22a7eafa329d950297a 
