@@ -2,14 +2,17 @@ This is a collection of precompiled cryptocurrency releated binaries for 64bit K
 
 Setup is simple.
 >git clone https://github.com/exploitagency/github-cryptocurrency.git
+
 >cd github-cryptocurrency
 
 Copy files to / they are already in proper folders.
 >cp root / -R
+
 >cp etc / -R
 
 Configure miner via *.sh file with your bitcoin, ethereum, or zcash pool and address.  In the following examples we will use the miner ewbf.
 >vi ewbf.sh
+
 Make your pool/address modifications here.  Press and Release ESC, Type ":wq", Press Enter to save.
 
 Reload systemd daemon:
