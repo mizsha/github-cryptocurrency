@@ -1,0 +1,4 @@
+./zcash-cli importprivkey PRIVATEKEY
+
+
+./geth account import KEY.TXT
