@@ -1,0 +1,14 @@
+[Unit]
+Description=Start CCMiner
+Documentation=man:syslog-ng(8)
+
+[Service]
+User=root
+Type=forking
+ExecStart=/bin/sh /root/cryptocurrency/miners/ccminer/ccminer.sh
+StandardOutput=null
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
