@@ -1,4 +1,15 @@
+ZCASH/ZCLASSIC
+---
+#Import T Wallet by Private Key
 ./zcash-cli importprivkey PRIVATEKEY
+#Verify t address imported properly
+./zcash-cli getaddressesbyaccount ""
+#####
+#Import Z Wallet by Private Key
+./zcash-cli z_importkey PRIVATEKEY
+#Verify z address imported properly
+./zcash-cli z_listaddresses
 
-
+Ethereum
+---
 ./geth account import KEY.TXT
