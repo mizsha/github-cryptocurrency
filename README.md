@@ -46,3 +46,7 @@ Donate LBRY: bLEGACYsaVR11r9qp6bXnWeWtpf7Usx9rX
 Donate Litecoin: LegacyeBuSwLaZaF5QLMiJL8E4rNCH6tJ7
 <br>
 Donate Namecoin: N1egacyRAKumMKiFaVrTqwzmdkJVL9mNDs
+<br>
+Donate Feathercoin: 71egacyuSdmPUMM3EKp4dw8yBgTruKhKZc
+<br>
+Donate Vertcoin: Vry1337ZVSFftzLWvBkEhf787HAXAqyupJ

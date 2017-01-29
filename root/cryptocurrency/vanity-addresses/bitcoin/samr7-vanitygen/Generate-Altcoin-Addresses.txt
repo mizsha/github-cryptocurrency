@@ -1,0 +1,4 @@
+Good write up at:
+https://steemit.com/vanitygen/@propersteemit/vanitygen-for-altcoins
+
+Use ./oclvanitygen -X #ofVERSION ADDRESS
