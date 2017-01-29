@@ -43,4 +43,6 @@ Donate Ethereum or Ethereum Classic: 0x1337aeb726eee1a51fc3b22a7eafa329d950297a
 <br>
 Donate LBRY: bLEGACYsaVR11r9qp6bXnWeWtpf7Usx9rX
 <br>
+Donate Litecoin: LegacyeBuSwLaZaF5QLMiJL8E4rNCH6tJ7
+<br>
 Donate Namecoin: N1egacyRAKumMKiFaVrTqwzmdkJVL9mNDs
