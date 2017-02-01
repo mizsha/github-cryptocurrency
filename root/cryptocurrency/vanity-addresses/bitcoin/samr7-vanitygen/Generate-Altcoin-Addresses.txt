@@ -1,4 +1,15 @@
-Good write up at:
-https://steemit.com/vanitygen/@propersteemit/vanitygen-for-altcoins
-
 Use ./oclvanitygen -X #ofVERSION ADDRESS
+
+LTC: 48
+FTC: 14
+NVC: 8
+ANC: 23
+PTC: 47
+CNC: 28
+DGC:30
+NMC: 52
+PPC:55
+YAC: 77
+BQC: 85
+IXC: 138
+DOGE: 30
