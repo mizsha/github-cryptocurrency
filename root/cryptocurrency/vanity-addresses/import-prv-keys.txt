@@ -1,3 +1,27 @@
+LBRY
+---
+./oclvanitygen -C LBRY bTEST
+Generating LBRY Address
+Difficulty: 4553521
+Pattern: bTEST                                                                 
+Address: bTESTwm8PxTRi9ZNr9C7EqkMSSa9BVkuy1
+Privkey: yHWBKbVpbo87PSge827QyMpya49mpf9etcLyUKym9auWeabC9V
+
+./lbrycrd-cli importprivkey yHWBKbVpbo87PSge827QyMpya49mpf9etcLyUKym9auWeabC9V
+
+./lbrycrd-cli listreceivedbyaddress 0 true
+  {
+    "address": "bTESTwm8PxTRi9ZNr9C7EqkMSSa9BVkuy1",
+    "account": "",
+    "amount": 0.00000000,
+    "confirmations": 0,
+    "label": "",
+    "txids": [
+    ]
+  }, 
+
+
+
 ZCASH/ZCLASSIC
 ---
 #Import T Wallet by Private Key
@@ -9,6 +33,7 @@ ZCASH/ZCLASSIC
 ./zcash-cli z_importkey PRIVATEKEY
 #Verify z address imported properly
 ./zcash-cli z_listaddresses
+
 
 Ethereum
 ---
