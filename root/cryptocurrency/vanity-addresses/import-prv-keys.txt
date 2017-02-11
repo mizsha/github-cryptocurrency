@@ -1,3 +1,4 @@
+---
 LBRY
 ---
 ./oclvanitygen -C LBRY bTEST
@@ -21,7 +22,7 @@ Privkey: yHWBKbVpbo87PSge827QyMpya49mpf9etcLyUKym9auWeabC9V
   }, 
 
 
-
+---
 ZCASH/ZCLASSIC
 ---
 #Import T Wallet by Private Key
@@ -35,6 +36,52 @@ ZCASH/ZCLASSIC
 ./zcash-cli z_listaddresses
 
 
+---
 Ethereum
 ---
+Copy private address to KEY.TXT
+then
 ./geth account import KEY.TXT
+
+
+---
+Feathercoin
+---
+./oclvanitygen -C FTC 71ftc
+
+./feathercoin-cli importprivkey 5mR8ZCYvvthaGXtCGErwrnD1KGu2xRmX3Aav4KNjd72fbPHnzWy
+
+./feathercoin-cli  listreceivedbyaddress 0 true
+[
+    {
+        "address" : "71ftcfB5rctA5gS1PbuzvG7QDDhySBifLF",
+        "account" : "",
+        "amount" : 0.00000000,
+        "confirmations" : 0,
+        "txids" : [
+        ]
+    }
+]
+
+
+---
+DASH
+---
+./oclvanitygen -C DASH Xxx
+
+./dash-cli importprivkey 7rpLZ4c7UjFGhLc5Wf6tDPy6ksQe6D15oZZ5a3F23tvEZBuzLTo
+
+./dash-cli listreceivedbyaddress 0 true
+[
+  {
+  {
+    "address": "XxxAqid91DN62yiPGHfwVTJQ5toqUsGS5s",
+    "account": "",
+    "amount": 0.00000000,
+    "confirmations": 0,
+    "bcconfirmations": 0,
+    "label": "",
+    "txids": [
+    ]
+  }
+]
