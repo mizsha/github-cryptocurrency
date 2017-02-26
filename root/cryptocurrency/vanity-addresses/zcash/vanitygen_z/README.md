@@ -1,5 +1,8 @@
 https://github.com/Voluntary-zcash/vanitygen_z
 
+GPU support from
+https://github.com/exploitagency/vanitygen_z
+
 Vanitygen_z is a quick and dirty fork of vanitygen that focuses on 
 generating Zcash t1 and t3 type addresses.  
 
