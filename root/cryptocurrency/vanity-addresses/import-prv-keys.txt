@@ -21,6 +21,7 @@ Privkey: yHWBKbVpbo87PSge827QyMpya49mpf9etcLyUKym9auWeabC9V
     ]
   }, 
 
+-----------------------------------------------------------------------------
 
 ---
 ZCASH/ZCLASSIC
@@ -35,6 +36,7 @@ ZCASH/ZCLASSIC
 #Verify z address imported properly
 ./zcash-cli z_listaddresses
 
+-----------------------------------------------------------------------------
 
 ---
 Ethereum
@@ -43,6 +45,7 @@ Copy private address to KEY.TXT
 then
 ./geth account import KEY.TXT
 
+-----------------------------------------------------------------------------
 
 ---
 Feathercoin
@@ -63,6 +66,7 @@ Feathercoin
     }
 ]
 
+-----------------------------------------------------------------------------
 
 ---
 DASH
@@ -85,3 +89,39 @@ DASH
     ]
   }
 ]
+
+-----------------------------------------------------------------------------
+
+---
+MONERO
+---
+
+Generate address:
+
+./monero-vanity ADDRESS-PREFIX
+
+Outputs: PREFIX _SPACE_ PRIVATE-KEY
+
+------
+
+Now convert to mnemonics:
+
+./monero-vanity -convert PRIVATE-KEY
+
+------
+
+Convert mnemonics to find private view key:
+
+https://mymonero.com
+Click on login.
+
+Ignore message to import transactions for a fee.
+
+Go to account details, copy keys.
+
+------
+
+Start ./monerod
+./monero-wallet-cli --generate-from-keys NEWWALLET
+Enter keys you copied earlier.
+type "balance"
