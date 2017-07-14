@@ -1,2 +1,2 @@
 #!/bin/sh
-./nheqminer_16_04 -l eu.zec.slushpool.com:4444 -u mizsha.ntb -t 2
+tmux new-session -d -s miner 'nheqminer_16_04 -l  -u 1egacySQXJA8bLHnFhdQQjZBLW1gxSAjc.worker -cd 0 0'
