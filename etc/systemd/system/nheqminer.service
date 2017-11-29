@@ -4,8 +4,8 @@ Documentation=man:syslog-ng(8)
 
 [Service]
 User=root
-Type=forking
-ExecStart=/bin/sh /root/cryptocurrency/miners/nheqminer/nheqminer.sh
+Type=simple
+ExecStart=/bin/sh /app/github-cryptocurrency/root/cryptocurrency/miners/nheqminer/start.sh
 StandardOutput=null
 Restart=always
 RestartSec=3
