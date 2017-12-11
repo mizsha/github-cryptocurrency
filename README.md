@@ -33,20 +33,6 @@ Disable miner to run at startup:
 
 If this repo helped you set up some miners consider donating to the author of the program you chose to use first and then consider contributing to one of my accounts, I share wallet addresses across forks of the same coin.  Thank you!
 
-Donate Bitcoin: 1egacySQXJA8bLHnFhdQQjZBLW1gxSAjc
+Donate Bitcoin: 1FL1SPwUrqgKaADZWT2qGq9rkPmKhBQa7C
 <br>
-Donate Zcash or Zclassic: t1egacynGZDT9mTfmMSCG1yCaedq7bGTs1a
-<br>
-Z-Address: zcashPngjXyQJUjePXH6wvg2vfHHngaZiYLmmDE2bp3PqMAPpErdfpbctug78P6m8xqKXyxX1dmfCYoUeJYfX8hDLSueuKL
-<br>
-Donate Ethereum or Ethereum Classic: 0x1337aeb726eee1a51fc3b22a7eafa329d950297a 
-<br>
-Donate LBRY: bLEGACYsaVR11r9qp6bXnWeWtpf7Usx9rX
-<br>
-Donate Litecoin: LegacyeBuSwLaZaF5QLMiJL8E4rNCH6tJ7
-<br>
-Donate Namecoin: N1egacyRAKumMKiFaVrTqwzmdkJVL9mNDs
-<br>
-Donate Feathercoin: 71egacyuSdmPUMM3EKp4dw8yBgTruKhKZc
-<br>
-Donate Vertcoin: Vry1337ZVSFftzLWvBkEhf787HAXAqyupJ
+Donate Zcash or Zclassic: t1aHf6dUe7JXUmymbEQW3zQChmf9wq8ujtJ
